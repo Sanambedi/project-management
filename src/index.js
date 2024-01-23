@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <iframe src = "https://miro.com/app/live-embed/uXjVN6eebiE=/?moveToViewport=-3746,-577,6024,2858&embedId=538885002758" allowFullScreen style={{
+      height:"99vh",
+      width:"99vw"
+    }} name="1"></iframe>
   </React.StrictMode>
 );
 
